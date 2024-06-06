@@ -1,0 +1,46 @@
+body{
+    background-color: #ffebb7;
+    height: 1300px;
+}
+header {
+    margin: 44px 0px 144px 76px;
+}
+
+.link-header{
+    font-weight: 600;/*negrito*/
+    font-size: 25px;/*tamanho fonte*/
+    color: #989d9c;
+    cursor: pointer;
+    text-decoration: none;/*tirar a linha de baixo*/
+    margin-right: 23px;/*espaçamento externo a direita */
+}
+
+.link-header, a{
+    text-decoration: none;
+    
+}
+
+.link-header, a:visited{
+    text-decoration: none;
+    
+}
+
+.button-header {
+    text-decoration: none;
+    background-color: #f1992a;
+    border-radius: 20.5px;
+    width: 162px;
+    height: 41px;
+    border: none;/*tirando a borda do botão*/
+    font-size: 25px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 1s;
+    
+}
+
+.button-header:hover{
+    background-color: #cccccc;
+    border-radius: 2px;
+    
+}
